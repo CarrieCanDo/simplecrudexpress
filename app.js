@@ -4,12 +4,13 @@ const port = 3000;
 
 app.use(express.json());  //Middleware to parse JSON bodies
 
-let book = [];
+let books = [];
+let idindex = 0;
 
 // POST /books - Create a new book
 app.post('/books', (req, res) => {  
     const newBook = {
-      id: books.length + 1,
+      id: idindex++,
       title: req.body.title,
       author: req.body.author
     };
