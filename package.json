@@ -1,0 +1,15 @@
+{
+  "name": "simplecrudexpress",
+  "version": "1.0.0",
+  "description": "Simple CRUD app using Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carrie <carrie.a.wright@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
